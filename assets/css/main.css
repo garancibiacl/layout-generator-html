@@ -1,0 +1,29 @@
+body {
+  background-color: #202124;
+  color: #e8eaed;
+  font-family: 'Roboto', sans-serif;
+}
+.section-label {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #9aa0a6;
+}
+.card-layout {
+  background-color: #303134;
+  border: 1px solid #5f6368;
+  border-radius: 0.5rem;
+  transition: transform 0.2s;
+}
+.card-layout:hover {
+  transform: scale(1.03);
+}
+.card-layout img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+.btn-copy {
+  font-size: 0.8rem;
+}

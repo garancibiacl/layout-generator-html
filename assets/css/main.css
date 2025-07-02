@@ -1,13 +1,13 @@
 body {
   background-color: #202124;
   color: #e8eaed;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Onest', sans-serif;
 }
 .section-label {
-  writing-mode: vertical-rl;
+  writing-mode: sideways-lr;
   text-orientation: mixed;
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   color: #9aa0a6;
 }
 .card-layout {

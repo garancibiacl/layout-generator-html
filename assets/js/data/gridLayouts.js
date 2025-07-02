@@ -411,9 +411,9 @@ export const gridLayouts = [
 </table>`
   },
   {
-    id: 'grid-infinite',
-    name: 'Infinite Rows',
-    img: 'assets/img/grid-infinite.png',
+    id: 'grid-3x1',
+    name: 'Grid 3 x 1',
+    img: 'assets/img/grid-3x1.png',
     html: `<div class="d-grid gap-2">...tu contenido...</div>`
   },
   {

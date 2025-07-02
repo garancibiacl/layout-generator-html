@@ -12,11 +12,12 @@ function createCard(layout) {
   const btnCopy = col.querySelector('.btn-copy');
   btnCopy.addEventListener('click', () => {
     navigator.clipboard.writeText(layout.html)
-      .then(() => alert('✅ HTML copiado'))
+      .then(() => mostrarToast("HTML copiado correctamente ", "light"))
       .catch(() => alert('❌ Error al copiar'));
   });
   return col;
 }
+
 
 export function renderLayouts() {
   const gridContainer = document.getElementById('gridSection');
@@ -25,3 +26,42 @@ export function renderLayouts() {
   const flexContainer = document.getElementById('flexSection');
   flexLayouts.forEach(l => flexContainer.appendChild(createCard(l)));
 }
+
+
+   // START FUNCION TOAST
+
+   function mostrarToast(mensaje, tipo = 'success') {
+    const toastContainerId = 'toastContainer';
+  
+    // Si no existe el contenedor, lo creamos una vez
+    if (!document.getElementById(toastContainerId)) {
+      const container = document.createElement('div');
+      container.id = toastContainerId;
+      container.className = 'position-fixed bottom-0 end-0 p-3';
+      container.style.zIndex = '9999';
+      document.body.appendChild(container);
+    }
+  
+    // Crear el toast dinámico
+    const toastEl = document.createElement('div');
+    toastEl.className = `toast align-items-center text-dark bg-${tipo} border-0 mb-2`;
+    toastEl.setAttribute('role', 'alert');
+    toastEl.innerHTML = `
+      <div class="d-flex">
+        <div class="toast-body d-flex gap-2 align-items-center">${mensaje} <i class="bx bx-check-circle bx-sm"></i></div>
+        <button type="button" class="btn-close btn-close-dark me-2 m-auto" data-bs-dismiss="toast"></button>
+      </div>
+    `;
+  
+    document.getElementById(toastContainerId).appendChild(toastEl);
+  
+    // Iniciar y mostrar el toast
+    const bsToast = new bootstrap.Toast(toastEl);
+    bsToast.show();
+  
+    // Eliminar el toast del DOM cuando termine
+    toastEl.addEventListener('hidden.bs.toast', () => {
+      toastEl.remove();
+    });
+  }
+ // FIN FUNCION TOAST

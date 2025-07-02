@@ -88,79 +88,79 @@ export const gridLayouts = [
     html: `<table width="600" border="0" cellspacing="0" cellpadding="0">
 
 
-    <!--START COLUMNA 1-->
-    <tr>
-      <td colspan="2" align="center" valign="top">
-        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<!--START COLUMNA 1-->
+<tr>
+<td colspan="2" align="center" valign="top">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
 
-          <tr>
-            <td colspan="2" align="center"><a href="%%=RedirectTo(concat('https://www.sodimac.cl/sodimac-cl/lista/cat18320014/Herramientas-electricas-e-inalambricas?',@prefix))=%%" target="_blank"> <img src="https://www.sodimac.cl/static/envioweb/2025/06-junio/09-jugueteria-papa/images/09-jugueteria-papa-1-v3.png" alt="Ir a Herramientas electricas e inalambricas" style="display:block;" border="0"> </a>
-            </td>
-          </tr>
-      
-
-            <tr>
-              <td colspan="2" align="center"><a href="%%=RedirectTo(concat('https://www.sodimac.cl/sodimac-cl/lista/cat18320016/Maquinarias-y-complementos?',@prefix))=%%" target="_blank"> <img src="https://www.sodimac.cl/static/envioweb/2025/06-junio/09-jugueteria-papa/images/09-jugueteria-papa-2-v3.png" alt="Ir a Maquinarias y complementos" style="display:block;" border="0"> </a>
-              </td>
-            </tr>
-       
-        </table>
+<tr>
+<td colspan="2" align="center"><a href="%%=RedirectTo(concat('https://www.sodimac.cl/sodimac-cl/lista/CATG10180/Calefont-tiro-natural?sid=SO_HO__389210?',@prefix))=%%" target="_blank"> <img src="https://www.sodimac.cl/static/envioweb/2025/07-julio/02-muebles-calefont/images/02-muebles-calefont-2.png" alt="Ir a Calefont tiro natural" style="display:block;" border="0"> </a>
+</td>
+</tr>
 
 
-      
+<tr>
+<td colspan="2" align="center"><a href="%%=RedirectTo(concat('https://www.sodimac.cl/sodimac-cl/lista/CATG10179/Calefont-tiro-forzado?sid=SO_HO__389211?',@prefix))=%%" target="_blank"> <img src="https://www.sodimac.cl/static/envioweb/2025/07-julio/02-muebles-calefont/images/02-muebles-calefont-3.png" alt="Ir a Calefont tiro forzado" style="display:block;" border="0"> </a>
+</td>
+</tr>
 
-      </td>
-      <!--FIN COLUMNA 1-->
+</table>
 
 
 
 
-      <!--START COLUMNA 2-->
-
-      <td colspan="2" align="center" valign="top">
-        <table width="100%" cellspacing="0" cellpadding="0" align="center">
-
-          <tr>
-            <td colspan="2" align="center"><a href="%%=RedirectTo(concat('https://www.sodimac.cl/sodimac-cl/lista/cat18320015/Maquinaria-de-jardin?',@prefix))=%%" target="_blank"> <img src="https://www.sodimac.cl/static/envioweb/2025/06-junio/09-jugueteria-papa/images/09-jugueteria-papa-3-v3.png" alt="Ir a Maquinaria de jardin" style="display:block;" border="0"> </a></td>
-          </tr>
-   
-        </table>
-
-    
-   
-
-
-      </td>
+</td>
+<!--FIN COLUMNA 1-->
 
 
 
-      <!--FIN COLUMNA 2-->
 
-            <!--START COLUMNA 3-->
+<!--START COLUMNA 2-->
 
-            <td colspan="2" align="center" valign="top">
-              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<td colspan="2" align="center" valign="top">
+<table width="100%" cellspacing="0" cellpadding="0" align="center">
 
-                <tr>
-                  <td colspan="2" align="center"><a href="%%=RedirectTo(concat('https://www.sodimac.cl/sodimac-cl/lista/cat2079/Parrillas-y-accesorios?',@prefix))=%%" target="_blank"> <img src="https://www.sodimac.cl/static/envioweb/2025/06-junio/09-jugueteria-papa/images/09-jugueteria-papa-4-v3.png" alt="Ir a Parrillas y accesorios" style="display:block;" border="0"> </a></td>
-                </tr>
-           
-        
-                <tr>
-                  <td colspan="2" align="center"><a href="%%=RedirectTo(concat('https://www.sodimac.cl/sodimac-cl/lista/cat1012/TV-y-Video?',@prefix))=%%" target="_blank"> <img src="https://www.sodimac.cl/static/envioweb/2025/06-junio/09-jugueteria-papa/images/09-jugueteria-papa-5-v3.png" alt="Ir a TV y Video" style="display:block;" border="0"> </a></td>
-                </tr>
+<tr>
+<td colspan="2" align="center"><img src="https://www.sodimac.cl/static/envioweb/2025/07-julio/02-muebles-calefont/images/02-muebles-calefont-4.png" alt="Ir a Maquinaria de jardin" style="display:block;" border="0"> </td>
+</tr>
 
-
-         
-              </table>
-
-          
-
-            </td>
+</table>
 
 
 
-  </tr>
+
+
+</td>
+
+
+
+<!--FIN COLUMNA 2-->
+
+<!--START COLUMNA 3-->
+
+<td colspan="2" align="center" valign="top">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+<tr>
+<td colspan="2" align="center"><a href="%%=RedirectTo(concat('https://www.sodimac.cl/sodimac-cl/lista/CATG10181/Termos-Electricos-y-Calderas?sid=SO_HO__389212?',@prefix))=%%" target="_blank"> <img src="https://www.sodimac.cl/static/envioweb/2025/07-julio/02-muebles-calefont/images/02-muebles-calefont-5.png" alt="Ir a Termos Electricos y Calderas" style="display:block;" border="0"> </a></td>
+</tr>
+
+
+<tr>
+<td colspan="2" align="center"><a href="%%=RedirectTo(concat('https://www.sodimac.cl/sodimac-cl/lista/CATG10021/Muebles-de-Bano?isPLP=true&Ntt=muebles+bano&',@prefix))=%%" target="_blank"> <img src="https://www.sodimac.cl/static/envioweb/2025/07-julio/02-muebles-calefont/images/02-muebles-calefont-6.png" alt="Ir a Muebles de Bano" style="display:block;" border="0"> </a></td>
+</tr>
+
+
+
+</table>
+
+
+
+</td>
+
+
+
+</tr>
 
 </table>`
   },
@@ -414,7 +414,69 @@ export const gridLayouts = [
     id: 'grid-3x1',
     name: 'Grid 3 x 1',
     img: 'assets/img/grid-3x1.png',
-    html: `<div class="d-grid gap-2">...tu contenido...</div>`
+    html: `<table width="600" border="0" cellspacing="0" cellpadding="0">
+    <!--START COLUMNA 1-->
+    <tr>
+      <td colspan="2" align="center" valign="top">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+          <tr>
+            <td colspan="2" align="center"><a href="%%=RedirectTo(concat('https://www.sodimac.cl/sodimac-cl/content/preparate-para-el-invierno?',@prefix))=%%" target="_blank"> <img src="https://www.sodimac.cl/static/envioweb/2025/07-julio/02-fan-diseno/images/02-fan-diseno-2.png" alt="Ir a Preparate para el invierno" style="display:block;" border="0"> </a>
+            </td>
+          </tr>
+      
+
+            <tr>
+              <td colspan="2" align="center"><a href="%%=RedirectTo(concat('https://www.sodimac.cl/sodimac-cl/lista/cat2073/Ropa-de-Cama?sid=SO_HO__365851?',@prefix))=%%" target="_blank"> <img src="https://www.sodimac.cl/static/envioweb/2025/07-julio/02-fan-diseno/images/02-fan-diseno-3.png" alt="Ir a Ropa de Cama" style="display:block;" border="0"> </a>
+              </td>
+            </tr>
+          
+            <tr>
+              <td colspan="2" align="center"><a href="%%=RedirectTo(concat('https://www.sodimac.cl/sodimac-cl/lista/cat5540010/Cortinas-y-rollers?sid=SO_HO__365853?',@prefix))=%%" target="_blank"> <img src="https://www.sodimac.cl/static/envioweb/2025/07-julio/02-fan-diseno/images/02-fan-diseno-4.png" alt="Ir a Cortinas y rollers" style="display:block;" border="0"> </a>
+              </td>
+            </tr>
+       
+        </table>
+
+
+      
+
+      </td>
+      <!--FIN COLUMNA 1-->
+
+
+
+
+      <!--START COLUMNA 2-->
+
+      <td colspan="2" align="center" valign="top">
+        <table width="100%" cellspacing="0" cellpadding="0" align="center">
+
+          <tr>
+            <td colspan="2" align="center">
+              <a href="%%=RedirectTo(concat('https://www.sodimac.cl/sodimac-cl/buscar?Ntt=9077952+9077391+9077421+9077626+9077340+9078371+9077510+9078223+9078398+9077367+9077669+9077502+907791X+9078363+9078304+9083642+9083650+9083677+9083685+9083693+9083723+9083707+9083731+9077618+9077855+907726X+9076646+907662X+9076638+9076670+9076697+9076689+9076336+9076328+9076360+9076352+9076549+9076557+9076565+9076603+9076581+907659X+9076441+9076395+9076409+9076433+9076387+9076425+9076840+9076832+9076824+9076859+9076905+9076891+9076883+9076875+9071989+9071903+9071806+9072071+9071962+9071822+9072152+9072004+9072098+9071881+9072012+907208X+9071946+9071873+907211X+9071865+9072136+9071830+9072063+907192X+9072039+9071997+907189X+9071849+9071814+9072101+9071857+9072144+9071970+9072020+9072055+9071911+9071954+9072128+9071938+9072047&sid=SO_HO__366153&',@prefix))=%%" target="_blank">
+                <img src="https://www.sodimac.cl/static/envioweb/2025/07-julio/02-fan-diseno/images/02-fan-diseno-5.gif" alt="Ir a COleccion Sherpa" style="display:block;" border="0"></a> </td>
+          </tr>
+   
+        </table>
+
+    
+   
+
+
+      </td>
+
+
+
+      <!--FIN COLUMNA 2-->
+
+         
+
+
+
+  </tr>
+
+</table>`
   },
   {
     id: 'grid-infinite-areas',

@@ -7,7 +7,7 @@ function createCard(layout) {
     <div class="card-layout p-3 text-center">
       <img src="${layout.img}" alt="${layout.name}" />
       <div class="mt-2 small">${layout.name}</div>
-      <button class="btn btn-sm btn-outline-light btn-copy mt-2">Copiar HTML</button>
+      <button class="btn btn-sm btn-dark btn-outline-light btn-copy mt-2">Copiar HTML</button>
     </div>`;
   const btnCopy = col.querySelector('.btn-copy');
   btnCopy.addEventListener('click', () => {

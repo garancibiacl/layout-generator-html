@@ -1,23 +1,24 @@
-body {
-  background-color: #202124;
-  color: #e8eaed;
-  font-family: 'Onest', sans-serif;
-}
+
 
 /* 🎨 Tema claro */
 body.light-theme {
-  background-color: #f8f9fa !important;
-  color: #212529 !important;
+  background-color: #e8eaed !important;
+  color: #202124 !important;
+  font-family: 'Onest', sans-serif;
 }
 
 body.light-theme .card,
 body.light-theme .container,
 body.light-theme .grid-option,
 body.light-theme .form-control,
-body.light-theme .btn {
-  background-color: #ffffff !important;
-  color: #212529 !important;
-  border-color: #dee2e6 !important;
+body.light-theme .btn,
+body.light-theme .card-layout,
+body.light-theme .navbar-brand,
+body.light-theme .btn-outline-light
+{
+  background-color: #e8eaed !important;
+  color: #202124 !important;
+  border-color: #4b4b4b !important;
 }
 
 /* 🎨 Tema oscuro por defecto ya está en tu diseño actual */

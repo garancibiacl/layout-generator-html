@@ -3,6 +3,25 @@ body {
   color: #e8eaed;
   font-family: 'Onest', sans-serif;
 }
+
+/* 🎨 Tema claro */
+body.light-theme {
+  background-color: #f8f9fa !important;
+  color: #212529 !important;
+}
+
+body.light-theme .card,
+body.light-theme .container,
+body.light-theme .grid-option,
+body.light-theme .form-control,
+body.light-theme .btn {
+  background-color: #ffffff !important;
+  color: #212529 !important;
+  border-color: #dee2e6 !important;
+}
+
+/* 🎨 Tema oscuro por defecto ya está en tu diseño actual */
+
 .section-label {
   writing-mode: sideways-lr;
   text-orientation: mixed;

@@ -2,7 +2,7 @@
 
 /* 🎨 Tema claro */
 body.light-theme {
-  background-color: #e8eaed !important;
+  background-color: #c8c8c8 !important;
   color: #202124 !important;
   font-family: 'Onest', sans-serif;
 }
@@ -16,9 +16,10 @@ body.light-theme .card-layout,
 body.light-theme .navbar-brand,
 body.light-theme .btn-outline-light
 {
-  background-color: #e8eaed !important;
+  background-color: #c8c8c8 !important;
   color: #202124 !important;
   border-color: #4b4b4b !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* 🎨 Tema oscuro por defecto ya está en tu diseño actual */

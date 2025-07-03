@@ -13,13 +13,28 @@ body.light-theme .grid-option,
 body.light-theme .form-control,
 body.light-theme .btn,
 body.light-theme .card-layout,
-body.light-theme .navbar-brand,
-body.light-theme .btn-outline-light
+body.light-theme .navbar-brand
 {
   background-color: #c8c8c8 !important;
   color: #202124 !important;
   border-color: #4b4b4b !important;
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+body.light-theme .btn-outline-light
+{
+  background-color: #202124 !important;
+  color: #c8c8c8 !important;
+  border-color: #4b4b4b !important;
+}
+
+btn-outline-light
+
+body.light-theme .card-layout
+{
+  background-color: #ece8e8 !important;
+
 }
 
 /* 🎨 Tema oscuro por defecto ya está en tu diseño actual */
